@@ -17,7 +17,6 @@ All Python files are in the project root (flat structure):
 ```
 project/
 ├── app_en.py           # Streamlit application (submission version, English)
-├── app_zh.py           # Streamlit application (development version, Chinese/English)
 ├── models.py           # Core data models and graph classes
 ├── fetch.py            # OpenAlex API data fetching and local caching
 ├── graph.py            # Graph construction and analysis algorithms
@@ -40,7 +39,7 @@ pip install -r requirements.txt
 streamlit run app_en.py
 
 # 3. Run tests
-python -m pytest test_graph.py -v
+python3 -m pytest test_graph.py -v
 ```
 
 On first launch, the app fetches data from OpenAlex (approximately 1–2 minutes
@@ -223,7 +222,7 @@ a complete behavioral specification of the project.
 
 Run all tests:
 ```bash
-python -m pytest test_graph.py -v
+python3 -m pytest test_graph.py -v
 ```
 
 ---
