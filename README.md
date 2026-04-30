@@ -15,7 +15,8 @@ using data from the [OpenAlex](https://openalex.org) scholarly metadata API.
 All Python files are in the project root (flat structure):
 
 ```
-project/
+final_project/
+├── README.md           # Project documentation
 ├── app_en.py           # Streamlit application (submission version, English)
 ├── models.py           # Core data models and graph classes
 ├── fetch.py            # OpenAlex API data fetching and local caching
@@ -23,8 +24,8 @@ project/
 ├── test_graph.py       # Test suite — 51 tests across 7 test classes
 ├── requirements.txt    # Python dependencies
 ├── data/
-│   └── cache/          # Auto-created on first run; stores API responses as JSON
-└── .gitignore
+    └── cache/          # Auto-created on first run; stores API responses as JSON
+
 ```
 
 ---
