@@ -409,7 +409,7 @@ across the entire field.
 
     st.caption("""
 💡 **Suggested keywords to explore:**
-*Asian Studies* — China, Japan, Korea, Vietnam, Cold War, Taiwan, Belt and Road, democracy, nationalism ·
+*Asian Studies* — China, Japan, Korea, Vietnam, Cold War, Belt and Road, democracy, nationalism ·
 *African Studies* — Nigeria, Ghana, Kenya, South Africa, China, colonialism, development, oil, diaspora ·
 *Latin American Studies* — Mexico, Brazil, Cuba, migration, revolution, indigenous, trade, poverty
     """)
