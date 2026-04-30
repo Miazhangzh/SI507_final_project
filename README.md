@@ -17,7 +17,7 @@ All Python files are in the project root (flat structure):
 ```
 final_project/
 ├── README.md           # Project documentation
-├── app_en.py           # Streamlit application (submission version, English)
+├── app_en.py           # Streamlit application
 ├── models.py           # Core data models and graph classes
 ├── fetch.py            # OpenAlex API data fetching and local caching
 ├── graph.py            # Graph construction and analysis algorithms
@@ -176,7 +176,7 @@ Builds all three graph types and provides all analysis functions.
 
 ### `app_en.py`
 
-The main Streamlit application (submission version, English only).
+The main Streamlit application.
 
 In addition to rendering the seven navigation modes, this file contains:
 
